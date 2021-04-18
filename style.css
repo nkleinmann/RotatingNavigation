@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+* {
+    /* prevents changing width of page when adding padding or margin */
+    box-sizing: border-box;
+}
+
+body {
+    /*  google fonts from import */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* aligns horizontally in this case, if flex-direction is row, will vertically align with aligh-items center */
+    align-items: center;
+    /* centers on page */
+    justify-content: center;
+    /* makes height of body 100 view height */
+    height: 100vh;
+    /* prevents scroll bar from being shown as default */
+    overflow: hidden;
+    margin: 0;
+}
